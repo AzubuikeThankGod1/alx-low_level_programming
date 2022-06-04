@@ -19,9 +19,9 @@ int main(void)
 			l++;
 		}
 		else
-		{l++;
+			{l++;
 		}
 	}
-	putchar(*\'n');
+	putchar('\n');
 	return (0);
 }
