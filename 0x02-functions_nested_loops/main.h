@@ -1,5 +1,5 @@
-#ifdef MAIN_H
-#define MAIN_H
+#ifdef main.h
+#define main.h
 
 /*
  * main - Entry point
