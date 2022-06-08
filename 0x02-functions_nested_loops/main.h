@@ -1,5 +1,5 @@
-#ifdef main.h
-#define main.h
+#ifdef MAIN_H
+#define MAIN_H
 
 /*
  * main - Entry point
@@ -7,6 +7,6 @@
  * On error, -1 is returned, and errno is set appropriately.
  */
 
-int _putchar(char c);
+int main(void);
 
 #endif
