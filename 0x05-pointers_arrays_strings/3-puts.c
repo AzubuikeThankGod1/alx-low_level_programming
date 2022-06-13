@@ -6,7 +6,7 @@
  * Return: void which means our answer is correct
  */
 
-void _puts(char *str);
+void _puts(char *str)
 {
 	for (; *str != '\0'; str++)
 	{
