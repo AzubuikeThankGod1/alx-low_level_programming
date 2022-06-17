@@ -32,6 +32,7 @@ void print_number(int n)
 				_putchar((n / power % 10) * -1 + '0')
 			power /= 10;
 		}
+
 		if (power == 1)
 		{
 			if (neg)
