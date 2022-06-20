@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * _strstr - locates a substring
- * @haystack: string in which to check for needle
- * @needle: substring to find in haystack
+ * _strstr - locate a substring
+ * @haystack: the string to search
+ * @needle: the string to find
  *
- * Return: pointer to beginning of needle in haystack or NULL if no match
+ * Return: char value
  */
 char *_strstr(char *haystack, char *needle)
 {
@@ -19,6 +19,7 @@ char *_strstr(char *haystack, char *needle)
 			{
 				break;
 			}
+
 			b++;
 		}
 		if (needle[b] == '\0')
